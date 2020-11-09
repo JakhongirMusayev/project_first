@@ -1,2 +1,2 @@
-# commit qilingandan keyin to'xtadik
-Salom
+# kamchilik to'g'rilandi:
+fonts va margin

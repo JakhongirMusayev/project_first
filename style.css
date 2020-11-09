@@ -18,7 +18,7 @@ header {
 }
 header .logo {
   text-align: center;
-  padding: 30px 0 15px 0;
+  padding: 25px 0 15px 0;
 }
 
 nav ul {
@@ -46,6 +46,9 @@ nav ul li:first-child a {
   border-left: 1px solid #f5f5f5;
 }
 
+main {
+  margin-bottom: 20px;
+}
 main .slider {
   margin-bottom: 20px;
 }
@@ -57,40 +60,50 @@ main .articles article {
   background-color: #fff;
   line-height: 1.5;
 }
-.articles .articles-first-left {
+main .articles .articles-first-left {
   width: calc(479px - 60px);
   float: left;
   padding: 30px;
   text-align: justify;
   margin-bottom: 15px;
 }
-.articles .articles-second-right {
+main .articles .articles-first-left h2 {
+  font-family: 'Times New Roman';
+}
+main .articles .articles-second-right {
   width: calc(267px - 60px);
   float: right;
   padding: 30px;
 }
+main .articles .articles-second-right h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 main .articles article h2 {
   margin-bottom: 21px;
-  font-family: Times New Roman;
   font-size: 24px;
   color: #555555;
 }
 main .articles article p {
-  font-size: 12px;
   color: #555555;
 }
 main .articles .articles-first-left p {
-  margin-bottom: 20px;
+  font-size: 12px;
 }
 main .articles .articles-second-right div {
   margin-bottom: 20px;
+}
+main .articles .articles-second-right p {
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 main .articles article p:nth-of-type(2) {
   text-align: left;
 }
 
+footer {
+  margin-bottom: 30px;
+}
 footer p {
   font-size: 12px;
   color: #5f5d67;
-  margin-bottom: 30px;
 }
