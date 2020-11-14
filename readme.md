@@ -1,2 +1,3 @@
 # kamchilik to'g'rilandi:
-fonts va margin
+
+# Bitirildi, display: table; va display: table-cell; lar qo'shildi, menuni rezinoviy qilish uchun. 14.11.2020
